@@ -19,7 +19,7 @@ To retrieve those values:
 3. In the **Azure Active Directory** menu, go to [Enterprise applications](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview).
 4. Select **New application > Create your own application**.
 5. Name your application.
-6. Select **Register an application to integrate with Azure AD (App you're developing)** and then select **Create**.
+6. Select **Register an application to integrate with Microsoft Entra ID (App you're developing)** and then select **Create**.
 7. Select **Register**.
 8. Return to the **Azure Active Directory** menu and go to [App registrations](https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM).
 9. Select the app you just created. Copy the **Application (client) ID** and **Directory (tenant) ID**.
@@ -32,7 +32,7 @@ To retrieve those values:
 1. From the **App registrations** page for your application, go to **API permissions**.
 2. Select **Add a permission**.
 3. Select **Microsoft Graph**.
-4. Select **Delegated permissions** and enable the following permissions:
+4. Select **Application permissions** and enable the following permissions:
 - `email`
 - `offline_access`
 - `openid`
